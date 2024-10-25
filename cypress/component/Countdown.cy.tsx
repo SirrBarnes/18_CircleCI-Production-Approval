@@ -23,3 +23,5 @@ describe('<Countdown />', () => {
     cy.get('[data-cy="toast"]').should('exist').and('contain.text', 'Incorrect!')
   })
 })
+
+
