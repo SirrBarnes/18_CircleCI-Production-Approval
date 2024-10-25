@@ -24,3 +24,5 @@ describe('<Keyboard />', () => {
     cy.findByText('T').should('exist').and('have.value', 't').and('be.disabled');
   })
 })
+
+
